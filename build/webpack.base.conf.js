@@ -10,7 +10,7 @@ function resolve (dir) {
 
 module.exports = {
   entry: {
-    app: './src/main.js'
+    app: './src/main.js' // 主js文件
   },
   output: {
     path: config.build.assetsRoot,

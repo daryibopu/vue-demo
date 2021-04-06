@@ -16,15 +16,15 @@ export default new Router({
     },
     {
       path: '/home',
-      component: home
+      component: home // 考试首页
     },
     {
       path: '/exam1',
-      component: exam1
+      component: exam1 // 小学考试
     },
     {
         name: 'Result',
-        path: '/result',
+        path: '/result', // 考试结果
         component: result
       }
   ]

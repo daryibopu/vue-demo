@@ -1,13 +1,14 @@
 <template>
   <div id="app">
     <!--<img src="./assets/logo.png">-->
+<!--    app里面用路由-->
     <router-view/>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'app'
+  name: 'app' // app导出
 }
 </script>
 
@@ -17,7 +18,7 @@ export default {
   padding: 0;
 }
 a{
-    text-decoration: none;  
+    text-decoration: none;
 }
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
